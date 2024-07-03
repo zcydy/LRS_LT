@@ -1,0 +1,24 @@
+#title:  LRS with craters
+#domain: 1000 2000 1
+#dx_dy_dz: 1 1 1
+#time_window: 4e-5
+
+#waveform: ricker 1 5e6 LRS_antenna
+#hertzian_dipole: z 100 1800 0 LRS_antenna
+#rx: 120 1800 0
+#src_steps: 25 0 0
+#rx_steps: 25 0 0
+
+#material: 6 0 1 0 half_space
+#material: 1 0 1 0 air
+
+
+#box: 0 0 0 1000 800 1 half_space
+#triangle:  500 800 0 1000 800 0 1000 510 0 5 half_space
+#cylinder: 400 800 0 400 800 1 10 air
+#cylinder: 750 810 0 750 810 1 20 air
+#cylinder: 500 600 0 500 600 1 100 air
+
+
+#pml_cells:  40 20 0 40 20 0
+#geometry_view: 0 0 0 1000 2000 1 1 1 1 geo_rough f
